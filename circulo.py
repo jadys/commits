@@ -1,8 +1,12 @@
-print("Calcular area de un circulo")
-ladoA = input("Dame el radio de un circulo: ")
+#cuarto comentario
+class cancion():
+    def __init__(self):
+        self.titulo
+        self.artista
+        self.album
 
-ladoA_int = int(ladoA)
+    def get_titulo(self):
+        return self.titulo
 
-area = 3.141592 * ladoA_int**2
-print("El area del cuadrado es")
-print(area)
+    def get_artista(self):
+        return self.artista
