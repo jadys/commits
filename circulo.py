@@ -10,3 +10,6 @@ class cancion():
 
     def get_artista(self):
         return self.artista
+        
+   def get_genero(self):
+       return self.genero
